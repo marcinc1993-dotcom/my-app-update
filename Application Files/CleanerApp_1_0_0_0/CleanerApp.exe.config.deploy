@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="CleanerApp.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8" />
+    </startup>
+    <userSettings>
+        <CleanerApp.Properties.Settings>
+            <setting name="Folder" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Days" serializeAs="String">
+                <value>30</value>
+            </setting>
+            <setting name="Extensions" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Subfolders" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="TestMode" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Schedule" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ScheduleTime" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="IntervalValue" serializeAs="String">
+                <value>5</value>
+            </setting>
+            <setting name="IntervalType" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="AutoStart" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="StartupClean" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="SaveLogs" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Interval" serializeAs="String">
+                <value>False</value>
+            </setting>
+        </CleanerApp.Properties.Settings>
+    </userSettings>
+</configuration>
